@@ -17,8 +17,9 @@
                             <input type="password" class="form-control" id="password" name="password" required>
                         </div>
                         <div class="d-grid">
-                            <button type="submit" class="btn btn-success">Entrar</button>
+                            <button type="" class="btn btn-success">Entrar</button>
                         </div>
+                        
                     </form>
                 </div>
             </div>

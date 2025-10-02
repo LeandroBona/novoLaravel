@@ -17,4 +17,5 @@ Route::post('/contato', [ContatoController::class, 'salvar'])->name('contact.sal
 Route::prefix('admin')->group(function () {
     Route::get('/login', [LoginController::class, 'index'])->name('admin.login');
     Route::get('/dashboard', [DashboardController::class, 'index'])->name('admin.dashboard');
+
 });
